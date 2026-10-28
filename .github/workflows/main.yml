@@ -15,6 +15,6 @@ jobs:
 
             - name: install required library
               run: pip install pandas
-              
+
             - name: run python
               run: python data.py
