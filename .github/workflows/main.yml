@@ -1,3 +1,26 @@
+# name: Python External Library
+
+# on:
+#     push:
+#         branches:
+#             - main
+
+# jobs:
+#     run-python-code: # user defined
+#         runs-on: ubuntu-latest
+
+#         steps:
+#             - name: checkout code
+#               uses: actions/checkout@v7
+
+#             - name: install required library
+#               run: pip install pandas
+
+#             - name: run python
+#               run: python data.py
+
+
+
 name: Python External Library
 
 on:
@@ -14,7 +37,7 @@ jobs:
               uses: actions/checkout@v7
 
             - name: install required library
-              run: pip install pandas
+              run: pip install pandas requests streamlit
 
             - name: run python
               run: python data.py
