@@ -1,5 +1,9 @@
-pandas==2.2.2
-requests==2.32.3
-streamlit==1.38.0
-# don't use libraries like this always mention version
-# e.g. -> pandas=2.2.2
+# pandas==2.2.2
+# requests==2.32.3
+# streamlit==1.38.0
+# # don't use libraries like this always mention version
+# # e.g. -> pandas=2.2.2
+
+
+pytest
+pytest-cov
