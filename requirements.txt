@@ -1,3 +1,5 @@
 pandas 
 requests 
 streamlit
+# don't use libraries like this always mention version
+# e.g. -> pandas=2.2.2
