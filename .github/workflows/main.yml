@@ -1,1 +1,17 @@
+name: Python External Library
 
+on:
+    push:
+        branches:
+            - main
+
+jobs:
+    run-python-code: # user defined
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: checkout code
+              uses: actions/checkout@v7
+
+            - name: run python code
+              run: python data.py
